@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giới thiệu prototype - Hệ thống Lập hồ sơ thanh toán tiền điện GENCO3</title>
+  <link rel="stylesheet" href="assets/slides.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <div class="hint-badge">← → chuyển slide · O: lưới · F: toàn màn hình · cuộn/nút +/- : zoom ảnh</div>
+
+  <div class="stage">
+    <div class="deck" id="deck"><!-- slide render bằng slides.js --></div>
+  </div>
+
+  <div class="navbar">
+    <button id="btnFirst" title="Slide đầu (Home)">&#8676;</button>
+    <button id="btnPrev" title="Slide trước (←)">&#8249;</button>
+    <span class="counter" id="counter">1 / 1</span>
+    <button id="btnNext" title="Slide sau (→)">&#8250;</button>
+    <button id="btnLast" title="Slide cuối (End)">&#8677;</button>
+    <span class="sep"></span>
+    <button id="btnGrid" title="Lưới tổng thể (O)">&#9783;</button>
+    <button id="btnFs" title="Toàn màn hình (F)">&#9974;</button>
+  </div>
+
+  <div class="grid-overlay" id="gridOverlay">
+    <h2>Tổng thể slide - bấm để nhảy tới</h2>
+    <div class="thumbs" id="thumbs"></div>
+  </div>
+
+  <script src="assets/slides.js"></script>
+</body>
+</html>
