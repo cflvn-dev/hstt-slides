@@ -221,6 +221,10 @@ body {
 }
 .slide__source::before { content: "Nguồn: "; color: var(--line-2); }
 
+/* ---- TẠM ẨN theo yêu cầu review (xóa block này để hiện lại) ---- */
+.slide__source { display: none !important; }
+.slide__text .note { display: none !important; }
+
 /* ---- Thanh điều hướng dưới ---- */
 .navbar {
   position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%);
